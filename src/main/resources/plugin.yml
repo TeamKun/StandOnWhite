@@ -1,0 +1,17 @@
+name: Stand_on_white
+version: @version@
+main: com.bun133.stand_on_white.Stand_on_white
+api-version: 1.15
+authors: [ Bun133 ]
+description: The Player must be stand on white block!
+website: https://twitter.com/bun133_
+commands:
+  game:
+    description: Main Game Command
+    usage: /<command> <start/stop>
+    permission: stand_on_white.op
+    permission-message: You don't have enough permission.
+permissions:
+  stand_on_white.op:
+    default: op
+    description: OP Role with this plugin.
